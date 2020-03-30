@@ -6,7 +6,7 @@ COPY pom.xml /tmp/
 
 WORKDIR /tmp/
 
-RUN mvn package
+
 
 #pull base image
 
